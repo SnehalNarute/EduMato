@@ -1,0 +1,111 @@
+.cart-container {
+	background-color: #fff;
+	box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+	padding: 0.7rem 1.5rem;
+}
+.cart-container .cart-div {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 150px;
+}
+.cart-container .cart-div .cart-left {
+	height: 100px;
+	width: 100px;
+	object-fit: cover;
+	border-radius: 25%;
+}
+.cart-container .cart-div .cart-right {
+	margin-left: 45px;
+}
+.cart-container .bottom-container {
+	display: flex;
+	margin-top: 1.5rem;
+}
+.cart-container .bottom-container .bottom-right {
+	margin-left: 2.5rem;
+}
+
+.cart-container .cart-div .cart-right .biggest-font {
+	font-size: 20px;
+}
+.cart-container .cart-div .cart-right .price,
+.cart-container .cart-div .cart-right .desc {
+	font-size: 16px;
+}
+.cart-bottom {
+	display: flex;
+	height: 30px;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 0.5rem;
+}
+.cart-bottom-right {
+	margin-left: 2rem;
+}
+.cart-bottom-right button {
+	background-color: #ff2e42;
+	color: #fff;
+	padding: 0.2rem 1rem;
+}
+.addbtn {
+	display: flex;
+}
+.spans {
+	padding: 0 0.4rem;
+}
+@media screen and (min-width: 785px) {
+	.cart-bottom {
+		justify-content: flex-start;
+	}
+}
+
+@media screen and (max-width: 452px) {
+	.cart-container {
+		width: 315px;
+	}
+	.cart-container .cart-div .cart-right {
+		margin-left: 10px;
+	}
+	.cart-container .cart-div .cart-right .biggest-font {
+		font-size: 16px;
+	}
+	.cart-container .cart-div .cart-right .price,
+	.cart-container .cart-div .cart-right .desc {
+		font-size: 14px;
+	}
+	.cart-container .cart-div .cart-right {
+		margin-left: 25px;
+	}
+	.cart-container .bottom-container h6 {
+		font-size: 14px;
+	}
+	.cart-bottom-right {
+		margin-left: 1.5rem;
+	}
+	.cart-bottom-right a {
+		font-size: 0.8rem;
+	}
+	.cart-bottom-right button {
+		padding: 0.2rem 0.1rem;
+	}
+}
+@media screen and (max-width: 358px) {
+	.cart-container {
+		padding: 0.7rem 0.5rem;
+		width: 220px;
+	}
+	.cart-container .cart-div {
+		height: 245px;
+		flex-direction: column;
+	}
+	.cart-right h4 {
+		margin-top: 0.5rem;
+	}
+	.css-13xfq8m-MuiTabPanel-root {
+		padding: 0 !important;
+	}
+	.css-heg063-MuiTabs-flexContainer {
+		flex-direction: column !important;
+	}
+}

@@ -1,0 +1,43 @@
+.rest-brief-container {
+	background-color: #fff;
+	box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+	padding: 0.7rem 1.5rem;
+}
+.rest-brief-container .top-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 120px;
+}
+.rest-brief-container .top-container .top-left {
+	height: 100px;
+	width: 100px;
+	object-fit: cover;
+	border-radius: 25%;
+}
+.rest-brief-container .top-container .top-right {
+	margin-left: 45px;
+}
+.rest-brief-container .bottom-container {
+	display: flex;
+	margin-top: 1.5rem;
+}
+.rest-brief-container .bottom-container .bottom-right {
+	margin-left: 2.5rem;
+}
+
+@media screen and (max-width: 452px) {
+	.rest-brief-container .top-container .top-right .biggest-font {
+		font-size: 18px;
+	}
+	.rest-brief-container .top-container .top-right .location,
+	.rest-brief-container .top-container .top-right .address {
+		font-size: 14px;
+	}
+	.rest-brief-container .top-container .top-right {
+		margin-left: 36px;
+	}
+	.rest-brief-container .bottom-container h6 {
+		font-size: 14px;
+	}
+}
